@@ -29,6 +29,7 @@ TODO - Add Appropriate JMX Metrics for the below categories
 * Flushes -
 * Health -  
 * Caches -
+* Data Size - 
 
 # Nagios
 
