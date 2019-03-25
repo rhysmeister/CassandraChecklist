@@ -6,7 +6,7 @@ A checklist to ensure smooth operation of your Cassandra Clusters. Many of the c
 
 For each node ensure the following according to your backup policy...
 
-* Ensure recent snapshot exists and has been synced to an external location.
+* Ensure a recent snapshot exists and has been synced to an external location.
 * Ensure incremental backups are running and files are synced to an external location.
 * Ensure commitlog archive backups are running and files are synced to an external location.
 * Ensure config backups are running and files are synced to an external location.
@@ -28,3 +28,12 @@ TODO - Add Appropriate JMX Metrics for the below categories
 * Compactions -
 * Flushes -
 * Health -  
+* Caches -
+
+# Nagios
+
+* Check number and type of service alerts issued by each cluster node.
+
+# Cassandra Maintenance Tasks
+
+Checklist for repair and other maintenance tasks.
