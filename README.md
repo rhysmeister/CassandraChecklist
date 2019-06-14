@@ -13,6 +13,7 @@ For each node ensure the following according to your backup policy...
 * Ensure schema backups are running and files are synced to an external location.
 * Check for any recent errors in the backup process.
 * Check snapshot syncronisation times are within expected limits.
+* Check disk space used by snapshots on each node (see TrueDiskSpaceUsed in nodetool listsnpashots output)
 
 # Cassandra Metrics
 
@@ -29,7 +30,7 @@ TODO - Add Appropriate JMX Metrics for the below categories
 * Flushes -
 * Health -  
 * Caches -
-* Data Size - 
+* Data Size -
 
 # Nagios
 
